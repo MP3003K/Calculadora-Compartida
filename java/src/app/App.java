@@ -32,11 +32,9 @@ public static double  divicion(double x, double y) {
         System.out.println("suma =  "+(int)suma(x, y));
         System.out.println("resta =  "+(int)resta(x, y));
         System.out.println("multiplicacion =  "+multiplicacion(x, y));
-        if(y!=0){
+         if(y!=0){
             System.out.print("divicion =  ");
             System.out.printf("%.2f",divicion(x, y));
-        }else{
-            System.out.println("Error");
         }
     }
 }
